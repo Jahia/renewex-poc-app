@@ -14,5 +14,5 @@ export const Site = ({site}) => {
     )
 }
 Site.propTypes = {
-    site: PropTypes.string.isRequired,
+    site: PropTypes.object.isRequired,
 };
